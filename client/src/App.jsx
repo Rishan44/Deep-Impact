@@ -7,6 +7,7 @@ import Header from "./components/Header"
 import Etc from "./pages/Etc"
 import Contact from "./pages/Contact"
 import Shop from "./pages/Shop"
+import About from "./pages/About"
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
       <Route path="/profile" element={<Profile />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/shop" element={<Shop />} />
+      <Route path="/about" element={<About />} />
       <Route path="/etc" element={<Etc />} />
     </Routes>
   </BrowserRouter>
